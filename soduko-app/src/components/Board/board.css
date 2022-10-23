@@ -1,0 +1,15 @@
+.big-body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.sudoko-container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    background-color: pink;
+}

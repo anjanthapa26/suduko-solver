@@ -1,0 +1,22 @@
+
+.cell {
+    display: inline;
+    background-color: yellow;
+    margin: 3px;
+}
+
+.Inner-board {
+    display:grid;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:1px;
+}
+
+input {
+    margin-top: 2px;
+    margin-left: 3px;
+    background-color: white;
+}
