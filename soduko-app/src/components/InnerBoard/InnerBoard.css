@@ -4,7 +4,9 @@
     background-color: yellow;
     margin: 3px;
 }
-
+.inpColor {
+    background-color: black;
+}
 .Inner-board {
     display:grid;
     width: 100px;
